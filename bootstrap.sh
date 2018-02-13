@@ -15,8 +15,8 @@ pip install docker-compose awscli
 git clone https://github.com/jimeh/tmux-themepack.git /home/ubuntu/.tmux-themepack
 
 cd /tmp
-wget https://storage.googleapis.com/golang/go1.9.linux-amd64.tar.gz
-tar -C /usr/local -xzf go1.9.linux-amd64.tar.gz
+wget https://storage.googleapis.com/golang/go1.9.2.linux-amd64.tar.gz
+tar -C /usr/local -xzf go1.9.2.linux-amd64.tar.gz
 
 add-apt-repository ppa:masterminds/glide
 apt-get update
